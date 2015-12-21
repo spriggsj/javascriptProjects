@@ -1,0 +1,43 @@
+div#memory_board{
+	background:#000;
+	border:#fffff 2px solid;
+	width:800px;
+	height:540px;
+	padding:24px;
+	margin:0px auto;
+}
+div#memory_board > div{
+	background: url(/Users/donaldspriggs/Desktop/javascript1/class/img/square-owl.png); 
+	
+	background-size: 100px 100px;
+    background-repeat: no-repeat;
+	border:#fff 1px solid;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+	text-indent: -9999px; 
+}
+#title {
+	text-align: center;
+}
+
+#score {
+	text-align: center;
+	color: blue;
+}
+#countdown {
+	font-size: 1.5em;
+	text-align: center;
+	color: red;
+}
+
+#holder{
+	font-size: 1.5em;
+	text-align: center;
+	color: red;
+}
