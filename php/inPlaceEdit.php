@@ -1,0 +1,1 @@
+php check sessions and database for credentials to ensure they are privileged. Then make div editable. otherwise make read only. 

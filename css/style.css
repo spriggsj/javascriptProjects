@@ -1,0 +1,70 @@
+div#box1 {
+	background-color: black;
+	height: 200px;
+	width:400px;
+	color:white;
+	text-align: center;
+	font-size: 60px;
+}
+
+div#box2 {
+	background-color: black;
+	height: 200px;
+	width:400px;
+	color:white;
+	text-align: center;
+	font-size: 60px;
+
+}
+
+div#box3 {
+	background-color: black;
+	height: 200px;
+	width:400px;
+	color:white;
+	text-align: center;
+	font-size: 60px;
+	
+}
+
+div#box4 {
+	background-color: black;
+	height: 200px;
+	width:400px;
+	color:white;
+	text-align: center;
+	font-size: 60px;
+	float:right;
+	position: absolute;
+	top: 5px;
+	left: 600px;
+	
+}
+
+button#box4btn1{
+	float:right;
+	position: absolute;
+	top: 10px;
+	left: 600px;
+	background-color: blue;
+	color:#fff;
+	height:70px;
+	width: 70px;
+	border-radius: 80%;
+}
+
+button#box4btn2{
+	float:right;
+	position: absolute;
+	top: 135px;
+	left: 600px;
+	background-color: blue;
+	color:#fff;
+	height:70px;
+	border-radius: 80%;
+}
+
+button#box1btn1, #box1btn2, #box1btn3, #box2btn1, #box2btn2, #box3btn1, #box3btn2{
+	background-color: blue;
+	color:#fff;
+}

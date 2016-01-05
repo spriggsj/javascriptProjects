@@ -1,0 +1,2 @@
+form#multiphase{ border:#000 1px solid; padding:24px; width:350px; }
+form#multiphase > #phase2, #phase3, #show_all_data{ display:none; }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>css transition</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id="box1">Test 1</div>
+<button id="box1btn1" onclick="changeBg('box1' , '#ababab');">change bg</button>
+<button id="box1btn2" onclick="changeBg('box1' , '#fff');">change bg</button>
+<button id="box1btn3" onclick="changeBg('box1' , 'black');">original color</button>
+
+
+<div id="box2">Test 2</div>
+<button id="box2btn1" onclick="fadeOut('box2');">fade out</button>
+<button id="box2btn2" onclick="fadeIn('box2');">fade in</button>
+
+<div id="box3">Test 3</div>
+<button id="box3btn1" onclick="slideIn('box3');">Slide in</button>
+<button id="box3btn2" onclick="slideOut('box3');">Slide out</button>
+
+<div id="box4">Test 4</div>
+<button id="box4btn1" onmouseover="slideUp('box4');">Slide up</button>
+<button id="box4btn2" onmouseover ="slideDown('box4');">Slide down</button>
+
+
+
+
+
+
+
+	<script type="text/javascript" src="js/cssTransition.js"></script>
+</body>
+</html>

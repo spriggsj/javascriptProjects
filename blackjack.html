@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/blackjack.css">
+</head>
+<body>
+	<div id="game-status"></div>
+		<div class="user-area">
+			<div id="money"></div>
+				<div id="user-buttons" class="controls">
+					<input type="button" id="hit" value="Hit">
+					<input type="button" id="stand" value="Stand">
+					<input type="button" id="replay" value="Play Again">
+				</div>
+				<div class="score-parent">
+					<p>Score</p>
+						<div id="user-score"class="score">
+						</div>
+				</div>
+					<div id="user-hand" class="hand">
+						<h2>User Hand</h2>
+					</div>
+		</div>
+	<div class="dealer-area">
+		<div class="score-parent">
+			<p>Score</p>
+				<div id="dealer-score"class="score">
+				</div>
+		</div>
+			<div id="dealer-hand" class="hand">
+				<h2>Dealer Hand</h2>
+			</div>
+	</div>
+	<script type="text/javascript" src="js/blackjack.js"></script>
+</body>
+</html>

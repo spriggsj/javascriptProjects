@@ -1,0 +1,16 @@
+div#mycontent{ font-size:18px; border:#000 1px solid; width:450px; height:250px; padding:20px; background:#DFEFFF; }
+div#mymenu > button{ padding: 10px 30px; }
+div#btn_marker{
+	position:absolute;
+	border:#000 1px solid; border-bottom:none;
+	width:0px;
+	height:10px;
+	top:67px;
+	display:none;
+	-webkit-transition:left .5s ease 0s, width .5s linear 0s;
+	transition:left .5s ease 0s, width .5s linear 0s;
+}
+
+button#btn1, #btn2, #btn3, #btn4 {
+	
+}
